@@ -1,0 +1,6 @@
+join-message-title: "&aWelcome %s!"
+join-message-subtitle: "&eWe welcome you on GenericServer!"
+join-message-delay: 5
+join-message-fade-in: 10
+join-message-stay: 70
+join-message-fade-out: 20

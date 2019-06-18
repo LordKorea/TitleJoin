@@ -1,0 +1,11 @@
+name: TitleJoin
+author: LordKorea
+version: 0.1.0
+description: Shows a customizable title on join
+api-version: "1.14"
+
+main: io.gitlab.lordkorea.titlejoin.TitleJoinPlugin
+
+commands:
+  titlejoin:
+    description: Plugin management
