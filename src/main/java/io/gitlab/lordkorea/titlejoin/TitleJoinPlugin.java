@@ -81,6 +81,8 @@ public class TitleJoinPlugin extends JavaPlugin implements Listener {
      * Reloads the plugin's settings.
      */
     private void reloadSettings() {
+        reloadConfig();
+
         //noinspection ConstantConditions
         joinMessageTitleFmt = ChatColor.translateAlternateColorCodes('&',
                 getConfig().getString("join-message-title"));
